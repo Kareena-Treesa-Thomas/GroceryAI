@@ -1,66 +1,95 @@
-GroceryAI – AI Powered Grocery Price Comparison Platform
+# GroceryAI – AI Powered Grocery Price Comparison Platform
 
-GroceryAI is a full-stack web application designed to simplify grocery shopping by automatically comparing prices across multiple online grocery platforms. Instead of manually checking different apps, users can enter their grocery list and instantly receive a detailed price comparison showing the most affordable store.
+GroceryAI is a full-stack web application that simplifies grocery shopping by automatically comparing prices across multiple online grocery platforms.
 
-The system uses AI to analyze grocery items, estimate store prices, apply discounts, and calculate the final bill including delivery cost and delivery time. The platform then recommends the best store that offers the lowest overall price.
+Instead of manually checking different apps, users can simply enter their grocery list and instantly receive a detailed comparison showing which store offers the lowest overall cost.
 
-Key Features
+The platform uses AI to analyze grocery items, estimate store prices, apply discounts, and calculate the final bill including delivery charges and delivery time. It then recommends the best store for the user.
 
-AI-powered grocery price comparison
+---
 
-Item-wise price breakdown across stores
+# Features
 
-Automatic discount and final bill calculation
+## AI Powered Grocery Comparison
+Automatically compares prices across multiple grocery platforms.
 
-Delivery time and delivery cost comparison
+## Item-wise Price Breakdown
+View the price of each product across different stores.
 
-Google rating display for each store
+## Automatic Discount Calculation
+Applies discounts and calculates the final bill.
 
-Best store recommendation system
+## Delivery Cost & Time Comparison
+Compare delivery charges and estimated delivery times.
 
-User authentication with login and Google sign-in
+## Store Ratings Display
+Shows Google ratings for each store.
 
-Saved comparison history for logged-in users
+## Best Store Recommendation
+Recommends the store with the lowest total cost.
 
-Interactive price comparison charts
+## User Authentication
+Secure login system with Google Sign-In.
 
-Modern responsive dashboard interface
+## Saved Comparison History
+Logged-in users can view their previous searches.
 
-Supported Grocery Platforms
+## Interactive Charts
+Visual comparison of store prices using charts.
 
-Blinkit
+## Modern Responsive UI
+Clean dashboard design optimized for desktop and mobile.
 
-Zepto
+---
 
-BigBasket
+# Supported Grocery Platforms
 
-Amazon Fresh
+The system compares prices from popular online grocery services:
 
-Swiggy Instamart
+- Blinkit  
+- Zepto  
+- BigBasket  
+- Amazon Fresh  
+- Swiggy Instamart  
+- Flipkart Supermart  
+- Nature’s Basket  
+- JioMart  
 
-Flipkart Supermart
+---
 
-Nature’s Basket
+# Tech Stack
 
-JioMart
+## Frontend
+- HTML  
+- CSS  
+- JavaScript  
 
-Tech Stack
+## Backend
+- Node.js  
+- Express.js  
 
-Frontend
-HTML
-CSS
-JavaScript
+## AI Integration
+- Gemini API  
 
-Backend
-Node.js
-Express.js
+## Data Visualization
+- Chart.js  
 
-AI Integration
-Gemini API
+---
 
-Data Visualization
-Chart.js
+# How It Works
 
-Goal
+1. User enters grocery items.  
+2. The system processes the list using AI.  
+3. Prices are estimated and retrieved for multiple stores.  
+4. Discounts, delivery charges, and ratings are applied.  
+5. Final price comparison is generated.  
+6. The platform recommends the best store with the lowest total cost.
 
-The goal of GroceryAI is to help users save time and money by providing a single platform that identifies the cheapest grocery options across multiple online stores in seconds.
+---
+
+# Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/groceryai.git
