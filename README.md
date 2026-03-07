@@ -8,7 +8,7 @@ The platform uses AI to analyze grocery items, estimate store prices, apply disc
 
 ---
 
-# ✨ Features
+# 🎯 Features
 
 ## 🤖 AI Powered Grocery Comparison
 Automatically compares prices across multiple grocery platforms.
@@ -131,6 +131,11 @@ The goal of GroceryAI is to help users **save both time and money** by providing
 
 This project is developed for educational and innovation purposes.
 
+# 👩‍💻 Developers
 
+- **Kareena Treesa Thomas**  
+  GitHub: https://github.com/Kareena-Treesa-Thomas
+
+- **Team Sarvam Maya**
 
 
