@@ -1,4 +1,4 @@
-# GroceryAI – AI Powered Grocery Price Comparison Platform
+# 🛒 GroceryAI – AI Powered Grocery Price Comparison Platform
 
 GroceryAI is a full-stack web application that simplifies grocery shopping by automatically comparing prices across multiple online grocery platforms.
 
@@ -8,41 +8,41 @@ The platform uses AI to analyze grocery items, estimate store prices, apply disc
 
 ---
 
-# Features
+# ✨ Features
 
-## AI Powered Grocery Comparison
+## 🤖 AI Powered Grocery Comparison
 Automatically compares prices across multiple grocery platforms.
 
-## Item-wise Price Breakdown
+## 📦 Item-wise Price Breakdown
 View the price of each product across different stores.
 
-## Automatic Discount Calculation
+## 💰 Automatic Discount Calculation
 Applies discounts and calculates the final bill.
 
-## Delivery Cost & Time Comparison
+## 🚚 Delivery Cost & Time Comparison
 Compare delivery charges and estimated delivery times.
 
-## Store Ratings Display
+## ⭐ Store Ratings Display
 Shows Google ratings for each store.
 
-## Best Store Recommendation
+## 🏆 Best Store Recommendation
 Recommends the store with the lowest total cost.
 
-## User Authentication
+## 🔐 User Authentication
 Secure login system with Google Sign-In.
 
-## Saved Comparison History
+## 📜 Saved Comparison History
 Logged-in users can view their previous searches.
 
-## Interactive Charts
+## 📊 Interactive Charts
 Visual comparison of store prices using charts.
 
-## Modern Responsive UI
+## 🎨 Modern Responsive UI
 Clean dashboard design optimized for desktop and mobile.
 
 ---
 
-# Supported Grocery Platforms
+# 🏬 Supported Grocery Platforms
 
 The system compares prices from popular online grocery services:
 
@@ -57,23 +57,28 @@ The system compares prices from popular online grocery services:
 
 ---
 
-# Tech Stack
+# 🛠 Tech Stack
 
-## Frontend
-- HTML  
-- CSS  
-- JavaScript  
+## 💻 Frontend
+- HTML
+- CSS
+- JavaScript
 
-## Backend
-- Node.js  
-- Express.js  
+## ☁ Backend & Database
+- Supabase (PostgreSQL Database)
+- Supabase Authentication
 
-## AI Integration
-- Gemini API  
+## 🤖 AI Integration
+- Gemini API
 
-## Data Visualization
-- Chart.js  
+## 📊 Data Visualization
+- Chart.js
 
+## 🚀 Deployment
+- Vercel
+
+## 🔧 Version Control
+- Git & GitHub
 ---
 
 # How It Works
@@ -111,17 +116,11 @@ Open in browser
 http://localhost:3000
 ```
 ---
+# 🔗 Project Links
 
-# Future Improvements
-
-- Real-time grocery API integrations  
-- AI-powered shopping recommendations  
-- Mobile application version  
-- Price drop alerts  
-- Multi-cart optimization (split order across stores)
-
+- 🚀 **Live Demo:** https://grocery-ai-topaz.vercel.app/  
+- 💻 **GitHub Repo:** https://github.com/Kareena-Treesa-Thomas/GroceryAI/tree/main/supabase
 ---
-
 # Project Goal
 
 The goal of GroceryAI is to help users **save both time and money** by providing a single intelligent platform that instantly identifies the cheapest grocery options across multiple online stores.
