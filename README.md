@@ -93,3 +93,45 @@ Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/groceryai.git
+```
+Move into the project folder
+```bash
+cd groceryai
+```
+Install dependencies
+```bash
+npm install
+```
+Start the server
+```bash
+npm start
+```
+Open in browser
+```
+http://localhost:3000
+```
+---
+
+# Future Improvements
+
+- Real-time grocery API integrations  
+- AI-powered shopping recommendations  
+- Mobile application version  
+- Price drop alerts  
+- Multi-cart optimization (split order across stores)
+
+---
+
+# Project Goal
+
+The goal of GroceryAI is to help users **save both time and money** by providing a single intelligent platform that instantly identifies the cheapest grocery options across multiple online stores.
+
+---
+
+# License
+
+This project is developed for educational and innovation purposes.
+
+
+
+
