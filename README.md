@@ -1,141 +1,145 @@
-# 🛒 GroceryAI – AI Powered Grocery Price Comparison Platform
+# 🛒 GroceryAI — AI-Powered Grocery Price Comparison
 
-GroceryAI is a full-stack web application that simplifies grocery shopping by automatically comparing prices across multiple online grocery platforms.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-grocery--ai.vercel.app-22c55e?style=flat-square)](https://grocery-ai-topaz.vercel.app/)
+[![Gemini API](https://img.shields.io/badge/Gemini-AI%20Engine-4285f4?style=flat-square)](https://ai.google.dev)
+[![Supabase](https://img.shields.io/badge/Supabase-Database%20%26%20Auth-3ecf8e?style=flat-square)](https://supabase.com)
+[![Chart.js](https://img.shields.io/badge/Chart.js-Visualizations-ff6384?style=flat-square)](https://chartjs.org)
+[![Deployed on Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=flat-square)](https://vercel.com)
+[![License](https://img.shields.io/badge/License-Educational-f59e0b?style=flat-square)](#license)
 
-Instead of manually checking different apps, users can simply enter their grocery list and instantly receive a detailed comparison showing which store offers the lowest overall cost.
-
-The platform uses AI to analyze grocery items, estimate store prices, apply discounts, and calculate the final bill including delivery charges and delivery time. It then recommends the best store for the user.
-
----
-
-# 🎯 Features
-
-## 🤖 AI Powered Grocery Comparison
-Automatically compares prices across multiple grocery platforms.
-
-## 📦 Item-wise Price Breakdown
-View the price of each product across different stores.
-
-## 💰 Automatic Discount Calculation
-Applies discounts and calculates the final bill.
-
-## 🚚 Delivery Cost & Time Comparison
-Compare delivery charges and estimated delivery times.
-
-## ⭐ Store Ratings Display
-Shows Google ratings for each store.
-
-## 🏆 Best Store Recommendation
-Recommends the store with the lowest total cost.
-
-## 🔐 User Authentication
-Secure login system with Google Sign-In.
-
-## 📜 Saved Comparison History
-Logged-in users can view their previous searches.
-
-## 📊 Interactive Charts
-Visual comparison of store prices using charts.
-
-## 🎨 Modern Responsive UI
-Clean dashboard design optimized for desktop and mobile.
+> Stop switching between apps. Enter your grocery list once — GroceryAI finds the cheapest store across 8 platforms in seconds.
 
 ---
 
-# 🏬 Supported Grocery Platforms
+## 🎬 Live Demo
 
-The system compares prices from popular online grocery services:
-
-- Blinkit  
-- Zepto  
-- BigBasket  
-- Amazon Fresh  
-- Swiggy Instamart  
-- Flipkart Supermart  
-- Nature’s Basket  
-- JioMart  
+🚀 **[grocery-ai-topaz.vercel.app](https://grocery-ai-topaz.vercel.app/)**
 
 ---
 
-# 🛠 Tech Stack
+## 🧩 The Problem
 
-## 💻 Frontend
-- HTML
-- CSS
-- JavaScript
+Comparing grocery prices across Blinkit, Zepto, BigBasket, and five other apps is tedious. Prices shift daily, discounts vary by platform, and delivery fees quietly inflate the final bill. Most people just pick one app out of habit — and overpay.
 
-## ☁ Backend & Database
-- Supabase (PostgreSQL Database)
-- Supabase Authentication
+## ✅ The Solution
 
-## 🤖 AI Integration
-- Gemini API
-
-## 📊 Data Visualization
-- Chart.js
-
-## 🚀 Deployment
-- Vercel
-
-## 🔧 Version Control
-- Git & GitHub
----
-
-# How It Works
-
-1. User enters grocery items.  
-2. The system processes the list using AI.  
-3. Prices are estimated and retrieved for multiple stores.  
-4. Discounts, delivery charges, and ratings are applied.  
-5. Final price comparison is generated.  
-6. The platform recommends the best store with the lowest total cost.
+GroceryAI processes your grocery list through the Gemini API, estimates per-item prices across all major platforms, applies current discounts, adds delivery charges, and surfaces the single best option — with a full breakdown so you can verify.
 
 ---
 
-# Installation
+## ⚡ Features
 
-Clone the repository
+| Feature | Description |
+|---|---|
+| 🤖 **AI Price Comparison** | Gemini API estimates prices across 8 stores simultaneously |
+| 📦 **Item-wise Breakdown** | See each product's price per store side by side |
+| 💰 **Discount Calculation** | Discounts applied automatically before totalling |
+| 🚚 **Delivery Cost & ETA** | Delivery charges and estimated times included in comparison |
+| ⭐ **Store Ratings** | Google ratings shown for each platform |
+| 🏆 **Best Store Pick** | Clear recommendation for lowest final cost |
+| 📊 **Interactive Charts** | Visual price comparison powered by Chart.js |
+| 📜 **Comparison History** | Logged-in users can revisit previous searches |
+| 🔐 **Google Sign-In** | Secure auth via Supabase + Google OAuth |
+| 📱 **Responsive UI** | Clean dashboard optimised for desktop and mobile |
 
-```bash
-git clone https://github.com/yourusername/groceryai.git
+---
+
+## 🏬 Supported Platforms
+
+| | | | |
+|---|---|---|---|
+| 🟡 Blinkit | 🟣 Zepto | 🟢 BigBasket | 🟠 Amazon Fresh |
+| 🔴 Swiggy Instamart | 🔵 Flipkart Supermart | 🌿 Nature's Basket | 📶 JioMart |
+
+---
+
+## 🛠 Tech Stack
+
 ```
-Move into the project folder
-```bash
-cd groceryai
+Frontend        HTML · CSS · JavaScript
+Backend         Supabase (PostgreSQL)
+Auth            Supabase Authentication · Google OAuth
+AI              Gemini API
+Charts          Chart.js
+Deployment      Vercel
+Version Control Git & GitHub
 ```
-Install dependencies
+
+---
+
+## 🔄 How It Works
+
+1. **Enter** your grocery list
+2. **Gemini API** processes each item and estimates store prices
+3. **Discounts, delivery fees, and ratings** are applied per platform
+4. **Chart.js** renders the visual comparison
+5. **Best store** is recommended with full cost breakdown
+
+---
+
+## 🚀 Quick Start
+
 ```bash
+git clone https://github.com/Kareena-Treesa-Thomas/GroceryAI.git
+cd GroceryAI
 npm install
-```
-Start the server
-```bash
 npm start
 ```
-Open in browser
+
+Open `http://localhost:3000`
+
+---
+
+## ⚙️ Environment Setup
+
+Create a `.env` file in the project root:
+
+```env
+SUPABASE_URL=your_supabase_project_url
+SUPABASE_ANON_KEY=your_supabase_anon_key
+GEMINI_API_KEY=your_gemini_api_key
 ```
-http://localhost:3000
+
+> ⚠️ Never commit `.env`. All API keys must stay in backend environment variables only.
+
+---
+
+## 📁 Project Structure
+
 ```
+GroceryAI/
+├── index.html              # Landing page
+├── dashboard.html          # Main comparison UI
+├── auth/                   # Google Sign-In flow
+├── assets/
+│   ├── css/                # Styles
+│   └── js/                 # Frontend logic + Chart.js setup
+├── supabase/               # DB schema + edge functions
+├── .env.example
+└── README.md
+```
+
 ---
-# 🔗 Project Links
 
-- 🚀 **Live Demo:** https://grocery-ai-topaz.vercel.app/  
-- 💻 **GitHub Repo:** https://github.com/Kareena-Treesa-Thomas/GroceryAI/tree/main/supabase
+## 🔗 Links
+
+| | |
+|---|---|
+| 🚀 Live Demo | [grocery-ai-topaz.vercel.app](https://grocery-ai-topaz.vercel.app/) |
+| 💻 GitHub Repo | [github.com/Kareena-Treesa-Thomas/GroceryAI](https://github.com/Kareena-Treesa-Thomas/GroceryAI/tree/main/supabase) |
+
 ---
-# Project Goal
 
-The goal of GroceryAI is to help users **save both time and money** by providing a single intelligent platform that instantly identifies the cheapest grocery options across multiple online stores.
+## 👩‍💻 Developers
+
+Built by **Team Sarvam Maya**
+
+**Kareena Treesa Thomas** · [github.com/Kareena-Treesa-Thomas](https://github.com/Kareena-Treesa-Thomas)
 
 ---
 
-# License
+## 📄 License
 
-This project is developed for educational and innovation purposes.
-
-# 👩‍💻 Developers
-
-- **Kareena Treesa Thomas**  
-  GitHub: https://github.com/Kareena-Treesa-Thomas
-
-- **Team Sarvam Maya**
+Developed for educational and innovation purposes.
 
 
